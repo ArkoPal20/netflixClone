@@ -1,0 +1,166 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #fff;
+    overflow: hidden;  
+}
+
+.navbar{
+    height: 4.2rem;
+    width: 100vw;
+    background: transparent;
+    /* background-color: #141414; */
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    position: fixed;
+}
+
+.nav-left{ 
+    background-color: transparent;
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+}
+
+.logo{
+    height: 2.5rem;
+    background-color: transparent;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+
+}
+
+.nav-options{
+    background-color: transparent;
+    display: flex;
+    
+}
+
+.nav-options span{
+    background-color: transparent;
+    margin:1.15rem 0 0 0.9rem;
+    font-size: 0.87rem;
+}
+
+.nav-right{
+    background-color: transparent;
+    display: flex;
+    margin-right: 2.9rem;
+}
+
+.nav-right span{
+    background-color: transparent;
+    font-size: 0.87rem;
+    margin: 1.66rem 0.9rem 0 0;
+}
+
+.nav-icon{
+    background-color: transparent;
+    margin: 1.3rem 0.9rem 0 0;
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+.profile{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-right: 0.9rem;
+}
+
+.avatar{
+    background-color: transparent;
+    height: 2rem;
+    border-radius: 5px;
+    margin-right: 0.35rem;
+}
+
+.back-img{
+    height: 870px;
+    width:100vw;
+    background-image: url("./assets/peacky blinders.jpg");
+    background-size: cover;
+}
+
+.peaky_logo{
+    height: 14rem;
+    width:43rem;
+    background-color: transparent;
+    margin-top: 14rem;
+    margin-left: 3rem;
+    background-image: url("./assets/peaky_logo.png");
+    background-size: cover;
+}
+
+.peaky-info{
+    height: 10rem;
+    width: 43rem;
+    margin-left: 4.1rem;
+    background-color: transparent;
+}
+
+.peaky-info p{
+    background-color: transparent;
+    font-size: 1.6rem;
+}
+.peaky-line{
+    background-color: transparent;
+}
+.peaky-buttons{
+    background-color: transparent;
+    height: 4rem;
+    width: 40rem;
+    margin-left: 4.1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+button{
+    height: 4.2rem;
+    margin-right: 0.8rem;
+    border: none;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play{
+    width: 9rem;
+    font-size: 1.3rem;
+    font-weight:bolder;
+    background-color: #fff;
+    color: #141414;
+}
+
+.play-icon{
+    background-color: rgba(255,255,255,0);
+    color: #141414;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.more-info{
+    width: 12rem;
+    font-size: 1.3rem;
+    font-weight:bolder;
+    background-color: rgba(109, 109, 110, 0.7);
+}
+
+.info-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgba(109, 109, 110, 0);
+}
+
+.play:hover{
+    background-color:rgba(255,255,255,0.7);
+}
+
+.more-info:hover{
+    background-color:rgba(109, 109, 110, 0.5); 
+}
