@@ -43,6 +43,7 @@
     background-color: transparent;
     margin:1.15rem 0 0 0.9rem;
     font-size: 0.87rem;
+    cursor: pointer;
 }
 
 .nav-right{
@@ -55,6 +56,7 @@
     background-color: transparent;
     font-size: 0.87rem;
     margin: 1.66rem 0.9rem 0 0;
+    cursor: pointer;
 }
 
 .nav-icon{
@@ -62,6 +64,7 @@
     margin: 1.3rem 0.9rem 0 0;
     height: 1.6rem;
     width: 1.6rem;
+    cursor: pointer;
 }
 
 .profile{
@@ -69,6 +72,7 @@
     display: flex;
     align-items: center;
     margin-right: 0.9rem;
+    cursor: pointer;
 }
 
 .avatar{
@@ -76,6 +80,7 @@
     height: 2rem;
     border-radius: 5px;
     margin-right: 0.35rem;
+    cursor: pointer;
 }
 
 .back-img{
@@ -120,21 +125,22 @@
 }
 
 button{
-    height: 4.2rem;
+    height: 4.1rem;
     margin-right: 0.8rem;
     border: none;
-    border-radius: 0.6rem;
+    border-radius: 0.4rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .play{
-    width: 9rem;
-    font-size: 1.3rem;
+    width: 10rem;
+    font-size: 1.4rem;
     font-weight:bolder;
     background-color: #fff;
     color: #141414;
+    cursor: pointer;
 }
 
 .play-icon{
@@ -145,10 +151,11 @@ button{
 }
 
 .more-info{
-    width: 12rem;
-    font-size: 1.3rem;
+    width: 13rem;
+    font-size: 1.4rem;
     font-weight:bolder;
     background-color: rgba(109, 109, 110, 0.7);
+    cursor: pointer;
 }
 
 .info-icon{
@@ -163,4 +170,27 @@ button{
 
 .more-info:hover{
     background-color:rgba(109, 109, 110, 0.5); 
+}
+.peaky-line{
+    display:flex;
+    justify-content: space-between;
+}
+
+.peaky-right{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    border-left: 0.2rem solid #fff;
+    background-color: #33333399;
+    height:2.7rem;
+    width: 7rem;
 }
