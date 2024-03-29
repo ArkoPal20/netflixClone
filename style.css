@@ -11,7 +11,7 @@
 .navbar{
     height: 4.2rem;
     width: 100vw;
-    background: transparent;
+    background-color:rgba(0, 0, 0, 0.4);
     /* background-color: #141414; */
     display: flex;
     justify-content: space-between;
@@ -262,6 +262,50 @@ h2{
     background-color: transparent;
   }
 
+.socials{
+    height: 2rem;
+    margin: 9rem 0 0 30rem;
+    overflow: hidden;
+}
 
-  
+.socials i{
+    font-size: 1.4rem;
+    overflow: hidden;
+    margin-right: 1.4rem;
+    cursor: pointer;
+}
+
+.footer-info{
+    display:flex;
+    margin: 0.5rem 0 0 29.5rem;
+}
+
+.footer-inside{
+    margin-right: 5rem;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.border{
+    padding: 0.5rem;
+    border: 1px solid white;
+}
+
+.border:hover{
+    opacity: 1;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.footer-info span{
+    margin-bottom: 1rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
   
